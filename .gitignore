@@ -1,0 +1,12 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+.idea
+.DS_Store
+
+# Ignore Gradle build output directory
+build/
+out/
+logs/
+
+# exclude the target build dir from blocking pushes in Bamboo
+deploy/target
